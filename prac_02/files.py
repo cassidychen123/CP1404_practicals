@@ -1,0 +1,13 @@
+name = str(input("enter your name:"))
+file = open("name.txt","w")
+file.write(name)
+file = open("name.txt","w")
+file.write("Your name is Bob")
+
+file = open("numbers.txt","r")
+number1 = file.readline()
+print(number1)
+number2 = file.readline()
+print(number2)
+total = int(number1)+ int(number2)
+print(total)
